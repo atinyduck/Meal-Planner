@@ -69,10 +69,10 @@ This file lists the ingredients you currently have on hand and their cost.
 
 **Format:** `IngredientName,QuantityAvailable,Unit,CostPerUnit`
 
-`IngredientName`: The name of the ingredient (must match IngredientName in recipes.csv exactly!).
-`QuantityAvailable`: The total numerical amount you have.
-`Unit`: The unit of measurement for your available quantity. Must match the unit used in recipes.csv for the same ingredient.
-`CostPerUnit`: The cost of one unit of that ingredient (e.g., cost per gram, per ml, per single egg).
+* `IngredientName`: The name of the ingredient (must match IngredientName in recipes.csv exactly!).
+* `QuantityAvailable`: The total numerical amount you have.
+* `Unit`: The unit of measurement for your available quantity. Must match the unit used in recipes.csv for the same ingredient.
+* `CostPerUnit`: The cost of one unit of that ingredient (e.g., cost per gram, per ml, per single egg).
 
 
 **Example `inventory.csv`**:
